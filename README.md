@@ -32,22 +32,22 @@ The framework consists of:
 
 | File | Purpose |
 |------|---------|
-| `01_Project_Inception.md` | Define project goals, scope, and requirements |
-| `02_System_Architecture.md` | Design high-level system architecture |
-| `03_MVP_Definition.md` | Define minimum viable product features |
-| `04_Developement_Planning.md` | Create development roadmap and timeline |
-| `05_Task_Breakdown.md` | Break down features into implementable tasks |
-| `06_Code_Implementation.md` | Guide for implementing specific components |
-| `07_Testing_Framework.md` | Define testing strategy and test cases |
-| `08_Code_Review.md` | Framework for effective code reviews |
-| `09_Iteration_Planning.md` | Plan for subsequent development iterations |
-| `10_Product_Documenation.md` | Create user and developer documentation |
-| `AI_Selection_Guide.md` | Guide for choosing appropriate AI models |
-| `Implementation_Workflow.md` | Detailed workflow for implementation phase |
+| [`01_Project_Inception.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/01_Project_Inception.md) | Define project goals, scope, and requirements |
+| [`02_System_Architecture.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/02_System_Architecture.md) | Design high-level system architecture |
+| [`03_MVP_Definition.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/03_MVP_Definition.md) | Define minimum viable product features |
+| [`04_Developement_Planning.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/04_Developement_Planning.md) | Create development roadmap and timeline |
+| [`05_Task_Breakdown.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/05_Task_Breakdown.md) | Break down features into implementable tasks |
+| [`06_Code_Implementation.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/06_Code_Implementation.md) | Guide for implementing specific components |
+| [`07_Testing_Framework.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/07_Testing_Framework.md) | Define testing strategy and test cases |
+| [`08_Code_Review.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/08_Code_Review.md) | Framework for effective code reviews |
+| [`09_Iteration_Planning.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/09_Iteration_Planning.md) | Plan for subsequent development iterations |
+| [`10_Product_Documenation.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/10_Product_Documenation.md) | Create user and developer documentation |
+| [`AI_Selection_Guide.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/AI_Selection_Guide.md) | Guide for choosing appropriate AI models |
+| [`Implementation_Workflow.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/Implementation_Workflow.md) | Detailed workflow for implementation phase |
 
 ## Detailed Workflow
 
-### 1. Project Definition Phase (`01_Project_Inception.md`)
+### 1. Project Definition Phase ([`01_Project_Inception.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/01_Project_Inception.md))
 
 a. **Initial Concept Development** (Claude Sonnet or ChatGPT)
    - Fill out the Project Inception template with your initial ideas
@@ -77,7 +77,7 @@ d. **Value Proposition Refinement** (Claude Sonnet or ChatGPT)
    - Ensure alignment with business objectives
    - Validate with potential users if possible
 
-### 2. Architecture Phase (`02_System_Architecture.md`)
+### 2. Architecture Phase ([`02_System_Architecture.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/02_System_Architecture.md))
 
 a. **System Component Mapping** (Claude Sonnet or ChatGPT)
    - Use the System Architecture template to outline major components
@@ -108,7 +108,7 @@ d. **Security Architecture** (Augment Code or ChatGPT)
    - Plan for secure data handling and storage
    - Consider compliance requirements (GDPR, HIPAA, etc.)
 
-### 3. Planning Phase (`03_MVP_Definition.md` and `04_Developement_Planning.md`)
+### 3. Planning Phase ([`03_MVP_Definition.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/03_MVP_Definition.md) and [`04_Developement_Planning.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/04_Developement_Planning.md))
 
 a. **MVP Scope Definition** (Claude Sonnet or ChatGPT)
    - Use the MVP Definition template to identify core features
@@ -139,7 +139,7 @@ d. **Risk Assessment** (Claude Sonnet or ChatGPT)
    - Consider external dependencies and their reliability
    - Document assumptions that, if wrong, would significantly impact the project
 
-### 4. Task Implementation Cycle (`05_Task_Breakdown.md`, `06_Code_Implementation.md`)
+### 4. Task Implementation Cycle ([`05_Task_Breakdown.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/05_Task_Breakdown.md), [`06_Code_Implementation.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/06_Code_Implementation.md))
 
 a. **User Story Breakdown** (Claude → Augment Code or ChatGPT → Augment Code)
    - Start with high-level user stories in Claude/ChatGPT
@@ -180,7 +180,7 @@ e. **Component Documentation** (Claude Sonnet or ChatGPT)
    - Create diagrams for complex components
    - Ensure documentation is accessible to future developers
 
-### 5. Integration Phase (`07_Testing_Framework.md`, `08_Code_Review.md`)
+### 5. Integration Phase ([`07_Testing_Framework.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/07_Testing_Framework.md), [`08_Code_Review.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/08_Code_Review.md))
 
 a. **Integration Planning** (Claude Sonnet or ChatGPT)
    - Map dependencies between components
@@ -214,7 +214,7 @@ d. **System-Level Testing** (Augment Code or ChatGPT)
    - Validate against original requirements
    - Document any deviations or limitations
 
-### 6. Refinement Phase (`09_Iteration_Planning.md`)
+### 6. Refinement Phase ([`09_Iteration_Planning.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/09_Iteration_Planning.md))
 
 a. **Performance Optimization** (Augment Code or ChatGPT)
    - Submit working system for performance review
@@ -248,7 +248,7 @@ d. **Launch Preparation** (Claude Sonnet or ChatGPT)
    - Create rollback procedures
    - Plan for post-launch support
 
-### 7. Continuous Improvement (`10_Product_Documenation.md`)
+### 7. Continuous Improvement ([`10_Product_Documenation.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/10_Product_Documenation.md))
 
 a. **Feedback Analysis** (Claude Sonnet or ChatGPT)
    - Provide user feedback and usage metrics
@@ -282,7 +282,7 @@ d. **Knowledge Sharing** (Claude Sonnet or ChatGPT)
    - Share insights with broader organization
    - Contribute to open source or community knowledge where appropriate
 
-## AI Model Selection Guide (`AI_Selection_Guide.md`)
+## AI Model Selection Guide ([`AI_Selection_Guide.md`](https://github.com/Phrendo/ai_assisted_project_developement/blob/main/AI_Selection_Guide.md))
 
 See the dedicated guide file for detailed recommendations on which AI model to use for specific tasks, along with prompt engineering tips and best practices.
 
