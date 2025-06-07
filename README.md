@@ -23,14 +23,31 @@ The framework is designed to be model-agnostic, with recommendations for specifi
 ## Framework Structure
 
 The framework consists of:
-1. Template files for each development phase
+1. Sequential template files for each development phase (01-10)
 2. This detailed workflow guide
 3. AI selection recommendations with alternatives
 4. Best practices for AI-assisted development
 
+### Template Files
+
+| File | Purpose |
+|------|---------|
+| `01_Project_Inception.md` | Define project goals, scope, and requirements |
+| `02_System_Architecture.md` | Design high-level system architecture |
+| `03_MVP_Definition.md` | Define minimum viable product features |
+| `04_Developement_Planning.md` | Create development roadmap and timeline |
+| `05_Task_Breakdown.md` | Break down features into implementable tasks |
+| `06_Code_Implementation.md` | Guide for implementing specific components |
+| `07_Testing_Framework.md` | Define testing strategy and test cases |
+| `08_Code_Review.md` | Framework for effective code reviews |
+| `09_Iteration_Planning.md` | Plan for subsequent development iterations |
+| `10_Product_Documenation.md` | Create user and developer documentation |
+| `AI_Selection_Guide.md` | Guide for choosing appropriate AI models |
+| `Implementation_Workflow.md` | Detailed workflow for implementation phase |
+
 ## Detailed Workflow
 
-### 1. Project Definition Phase
+### 1. Project Definition Phase (`01_Project_Inception.md`)
 
 a. **Initial Concept Development** (Claude Sonnet or ChatGPT)
    - Fill out the Project Inception template with your initial ideas
@@ -60,7 +77,7 @@ d. **Value Proposition Refinement** (Claude Sonnet or ChatGPT)
    - Ensure alignment with business objectives
    - Validate with potential users if possible
 
-### 2. Architecture Phase
+### 2. Architecture Phase (`02_System_Architecture.md`)
 
 a. **System Component Mapping** (Claude Sonnet or ChatGPT)
    - Use the System Architecture template to outline major components
@@ -91,7 +108,7 @@ d. **Security Architecture** (Augment Code or ChatGPT)
    - Plan for secure data handling and storage
    - Consider compliance requirements (GDPR, HIPAA, etc.)
 
-### 3. Planning Phase
+### 3. Planning Phase (`03_MVP_Definition.md` and `04_Developement_Planning.md`)
 
 a. **MVP Scope Definition** (Claude Sonnet or ChatGPT)
    - Use the MVP Definition template to identify core features
@@ -122,7 +139,7 @@ d. **Risk Assessment** (Claude Sonnet or ChatGPT)
    - Consider external dependencies and their reliability
    - Document assumptions that, if wrong, would significantly impact the project
 
-### 4. Task Implementation Cycle
+### 4. Task Implementation Cycle (`05_Task_Breakdown.md`, `06_Code_Implementation.md`)
 
 a. **User Story Breakdown** (Claude → Augment Code or ChatGPT → Augment Code)
    - Start with high-level user stories in Claude/ChatGPT
@@ -163,7 +180,7 @@ e. **Component Documentation** (Claude Sonnet or ChatGPT)
    - Create diagrams for complex components
    - Ensure documentation is accessible to future developers
 
-### 5. Integration Phase
+### 5. Integration Phase (`07_Testing_Framework.md`, `08_Code_Review.md`)
 
 a. **Integration Planning** (Claude Sonnet or ChatGPT)
    - Map dependencies between components
@@ -197,7 +214,7 @@ d. **System-Level Testing** (Augment Code or ChatGPT)
    - Validate against original requirements
    - Document any deviations or limitations
 
-### 6. Refinement Phase
+### 6. Refinement Phase (`09_Iteration_Planning.md`)
 
 a. **Performance Optimization** (Augment Code or ChatGPT)
    - Submit working system for performance review
@@ -231,7 +248,7 @@ d. **Launch Preparation** (Claude Sonnet or ChatGPT)
    - Create rollback procedures
    - Plan for post-launch support
 
-### 7. Continuous Improvement
+### 7. Continuous Improvement (`10_Product_Documenation.md`)
 
 a. **Feedback Analysis** (Claude Sonnet or ChatGPT)
    - Provide user feedback and usage metrics
@@ -265,36 +282,9 @@ d. **Knowledge Sharing** (Claude Sonnet or ChatGPT)
    - Share insights with broader organization
    - Contribute to open source or community knowledge where appropriate
 
-## AI Model Selection Guide
+## AI Model Selection Guide (`AI_Selection_Guide.md`)
 
-### Recommended Models by Task
-
-| Task Type | First Choice | Alternative | Strengths |
-|-----------|--------------|-------------|-----------|
-| Conceptual Design | Claude Sonnet | ChatGPT | Big-picture thinking, nuanced understanding |
-| Mermaid Diagrams | Claude Sonnet | ChatGPT | Visual representation of systems and processes |
-| Technical Architecture | Claude Sonnet | Augment Code | System design with technical accuracy |
-| Code Generation | Augment Code | ChatGPT | Precise implementation with best practices |
-| Task Breakdown | Augment Code | ChatGPT | Technical precision, code-focused |
-| Test Case Generation | Claude Sonnet | Augment Code | Comprehensive coverage including edge cases |
-| Code Review | Augment Code | ChatGPT | Detailed analysis and improvement suggestions |
-| Documentation | Claude Sonnet | ChatGPT | Clear, well-structured documentation |
-| Problem Solving | Augment Code | ChatGPT | Debugging and technical troubleshooting |
-| User Experience | Claude Sonnet | ChatGPT | Empathetic understanding of user needs |
-
-### AI Collaboration Workflow
-
-```mermaid
-flowchart TD
-    A[Project Inception] -->|Claude/ChatGPT| B[System Design]
-    B -->|Claude/ChatGPT| C[Architecture Diagrams]
-    C -->|Augment Code/ChatGPT| D[Task Breakdown]
-    D -->|Augment Code/ChatGPT| E[Implementation]
-    E -->|Augment Code/ChatGPT| F[Testing]
-    F -->|Augment Code/ChatGPT| G[Code Review]
-    G -->|Claude/ChatGPT| H[Documentation]
-    H -->|Claude/ChatGPT| I[Iteration Planning]
-```
+See the dedicated guide file for detailed recommendations on which AI model to use for specific tasks, along with prompt engineering tips and best practices.
 
 ## Key Success Factors
 
